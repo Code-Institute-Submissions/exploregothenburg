@@ -9,6 +9,38 @@ body {
       min-height: calc(100vh - 56px);
 }
 /*End Content*/
+
+/*Home Page*/
+.callout-container {
+  background: url("../image/img-index/hero-image.jpg") no-repeat bottom right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #8f8f8f;
+  display: flex;
+  height: calc(100vh-166px);
+  justify-content: center;
+  position: relative;
+}
+#landing-text {
+    color: #ffffff;
+    font-family: 'Expo',sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 10px 10px 40px #fafafa;
+    margin-bottom: 50px;
+    margin-top: 20%; 
+} 
+@media screen and (max-width: 768px) {
+  #landing-text {
+    font-size:10px;
+    margin-top: 30%;
+  }
+}
+/*End Home Page*/
+
 /*Header*/
 .navbar {
   margin-bottom: 0;
