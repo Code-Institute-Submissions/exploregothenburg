@@ -19,24 +19,34 @@ body {
   background-size: cover;
   background-color: #8f8f8f;
   display: flex;
-  height: calc(100vh-166px);
+  height: calc(100vh - 166px);
   justify-content: center;
   position: relative;
 }
-#landing-text {
+.landing-text {
     color: #ffffff;
+    background-size: cover;
+    background-color: rgba(00,42,78,0.5);
     font-family: 'Expo',sans-serif;
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
     text-shadow: 10px 10px 40px #fafafa;
+    padding:10px;
     margin-bottom: 50px;
-    margin-top: 20%; 
+    margin-top: 50%; 
+    align-items: center;
+    text-align: center;
+    height:fit-content;
 } 
+.landing-text a:hover {
+    color: white;
+}
 @media screen and (max-width: 768px) {
-  #landing-text {
+  .landing-text {
     font-size:10px;
-    margin-top: 30%;
+  }
+  h2 {
+     font-size:20px; 
   }
 }
 /*End Home Page*/
@@ -111,3 +121,7 @@ body {
   text-align: center;
 }
 /*End Footer*/
+
+a {
+    color: white;
+}
