@@ -76,6 +76,21 @@ body {
   align-items: center;
   text-align: center;
 }
+.top-text {
+    padding-top: 50px;
+    margin:20px;
+    align-items: center;
+}
+.page-heading {
+    background-color: #002a4e;
+    color: white;
+    font-size: 30px;
+    font-family: "Expo";
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
 .header-item {
     width: 500px;
     background-color: #002a4e;
