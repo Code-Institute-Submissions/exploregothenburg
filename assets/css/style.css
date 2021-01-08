@@ -96,6 +96,23 @@ body {
     font-size:20px;
     font-family:"Expo";
 }
+
+.btn--cta {
+  font-weight: bold;
+  border-radius: 15px;
+}
+.btn--cta:hover {
+    color: white;
+}
+
+.btn-dblue {
+    background-color: #002a4e;
+    color: #ffffff;
+    width: 150px;
+    margin:10px;
+}
+
+/*End Button*/
 /*End about Page*/
 
 
