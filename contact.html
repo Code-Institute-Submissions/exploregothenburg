@@ -30,6 +30,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
     <!--stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!--emailjs-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
     <script type="text/javascript">
         (function () {
             emailjs.init("user_HB4HzQzv7UDZdJ7tUoKjZ");
@@ -74,7 +77,7 @@
     <!--header-->
 
     <!--Section-->
-        <div class="page-content container-fluid message-container img-fluid">
+    <div class="page-content container-fluid message-container img-fluid">
         <div class="row ">
             <div class="col-12">
                 <section class="callout message-box text-center">
@@ -93,11 +96,25 @@
                         </div>
                     </form>
                 </section>
+                <div aria-live="polite" aria-atomic="true"
+                    class="d-flex justify-content-center align-items-center w-100">
+                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false"
+                        data-delay="5000">
+                        <div class="toast-header">
+                            <strong class="me-auto">Thank You!</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                aria-label="Close">x</button>
+                        </div>
+                        <div class="toast-body">
+                            We will contact you soon.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!--section-->
-    
+
     <!--Footer-->
     <footer class="footer mt-auto py-3 container-fluid">
         <div id="footer-details" class="row">

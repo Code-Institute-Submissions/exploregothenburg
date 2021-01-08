@@ -51,6 +51,42 @@ body {
 }
 /*End Home Page*/
 
+/*Contact Page*/
+.message-container {
+  background: url("../image/img-contact/contact.jpg") no-repeat bottom right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: dimgray;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+}
+.message-box {
+  background-color: rgba(00,42,78,0.5);
+  padding: 2rem 1rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  min-width: 300px;
+  font-family: "expo";
+  color: white;
+}
+.header-form {
+    font-size:20px;
+}
+.toast {
+    background-color:#002a4e;
+    color: white;
+}
+.btn-close {
+  cursor: pointer;
+  margin-left: auto;
+}
+/*End Contact Page*/
+
 /*Header*/
 .navbar {
   margin-bottom: 0;
