@@ -120,6 +120,7 @@ body {
     font-family:"Expo";
 }
 /*End about Page*/
+
 /*Restaurant Page*/
 .food-guide {
     align-items: center;
@@ -130,23 +131,15 @@ body {
     margin: 30px;
 }
 /*End Restaurant Page*/
-/*Buttons*/
-.btn--cta {
-  font-weight: bold;
-  border-radius: 15px;
-}
-.btn--cta:hover {
-    color: white;
-}
 
-.btn-dblue {
-    background-color: #002a4e;
-    color: #ffffff;
-    width: 150px;
-    margin:10px;
-}
-/*End Button*/
+/*Explore Map*/
+div#map {min-height: 500px;}
 
+#location {
+  width: 100%;
+  font-size: 20px;
+}
+/*End explore map*/
 
 /*Contact Page*/
 .message-container {
@@ -183,6 +176,24 @@ body {
   margin-left: auto;
 }
 /*End Contact Page*/
+
+/*Buttons*/
+.btn--cta {
+  font-weight: bold;
+  border-radius: 15px;
+}
+.btn--cta:hover {
+    color: white;
+}
+.btn-dblue {
+    background-color: #002a4e;
+    color: #ffffff;
+    width: 150px;
+    margin:10px;
+}
+/*End Button*/
+
+/*Back to Top Button for about page*/
 #myBtnTop {display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 140px; /* Place the button at the bottom of the page */
@@ -197,10 +208,12 @@ body {
   border-radius: 10px; /* Rounded corners */
   font-size: 15px; /* Increase font size */
 }
-
 #myBtnTop:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+/*End Back to Top Button for about page*/
+
+/*Back to Top Button for attraction page*/
 #myBtn {display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 140px; /* Place the button at the bottom of the page */
@@ -215,10 +228,17 @@ body {
   border-radius: 10px; /* Rounded corners */
   font-size: 15px; /* Increase font size */
 }
-
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+/*End Back to Top Button for about page*/
+
+/*links*/
+a {
+    color: white;
+}
+/*End links*/
+
 /*Header*/
 .navbar {
   margin-bottom: 0;
@@ -290,6 +310,3 @@ body {
 }
 /*End Footer*/
 
-a {
-    color: white;
-}
