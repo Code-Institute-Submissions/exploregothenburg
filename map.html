@@ -79,6 +79,41 @@
                 </div>
             </div>
             </section>
+            <section>
+                <div class="card mb-3">
+                <div class="row g-0">
+                    
+                    <div class="col-md-6">
+                
+                        <div class="card-body">
+                            <select id="location" onchange="initMap()">
+                                <option value="men" selected>Open this menu</option>
+                                <option value="vra">Vrango</option>
+                                <option value="lis">Liseberg</option>
+                                <option value="bor">Boras Zoo</option>
+                                <option value="slo">Slottsskogen</option>
+                                <option value="uni">Universeum</option>
+                                <option value="gom">Goteborg Museum</option>
+                                <option value="bot">Botaniska</option>
+                                <option value="tra">Tradgardsningen</option>
+                                <option value="mar">Marstrand</option>
+                                <option value="ofc">Oscar Fredrik Church</option>
+                                <option value="ask">Askim Beach</option>
+                                <option value="del">Delsjon</option>
+                                <option value="vat">Vattlestugan</option>
+                                <option value="goc">Gota Canal</option>
+                                <option value="bro">Brogyllen</option>
+                                <option value="rod">Roda Gelato</option>
+                                <option value="ava">Avalon</option>
+                                <option value="got">Gothia Towers</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="map" class="col-md-6">   
+                    </div>
+                </div>
+                </div>
+            </section>
             
         </div>
     
@@ -122,6 +157,12 @@
         </div>
     </footer>
     <!--footer-->
+    <scipt src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer.js "></scipt>
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-NMJOHXKwrSfyBDvlqkoYyKogegEMwlA&libraries=places&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
 </body>
 
 </html>
