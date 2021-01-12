@@ -139,6 +139,10 @@ div#map {min-height: 500px;}
   width: 100%;
   font-size: 20px;
 }
+.map-container {
+   padding:10px;
+   margin:10px; 
+}
 /*End explore map*/
 
 /*Contact Page*/
