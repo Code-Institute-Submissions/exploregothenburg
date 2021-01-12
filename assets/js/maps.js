@@ -19,6 +19,8 @@ function initMap() {
     var ava = { lat: 57.703977, lng: 11.968236 }; /*Avalon*/
     var got = { lat: 57.697391, lng: 11.989012 }; /*Gothia Towers*/
 
+    /*Select Location*/
+    /*Display Map & Marker on map*/
     if (document.getElementById("location").value == 'men') {
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 10,
@@ -27,7 +29,6 @@ function initMap() {
         new google.maps.Marker({
             position: men,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'vra') {
@@ -37,10 +38,7 @@ function initMap() {
         });
         new google.maps.Marker({
             position: vra,
-            content:
-        "<h2>Vrango</h2><p>Saltholmen</p>",
             map,
-
         });
     } 
     else if (document.getElementById("location").value == 'lis') {
@@ -51,7 +49,6 @@ function initMap() {
         new google.maps.Marker({
             position: lis,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'bor') {
@@ -62,7 +59,6 @@ function initMap() {
         new google.maps.Marker({
             position: bor,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'slo') {
@@ -73,7 +69,6 @@ function initMap() {
         new google.maps.Marker({
             position: slo,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'uni') {
@@ -84,7 +79,6 @@ function initMap() {
         new google.maps.Marker({
             position: uni,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'gom') {
@@ -95,7 +89,6 @@ function initMap() {
         new google.maps.Marker({
             position: gom,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'bot') {
@@ -106,7 +99,6 @@ function initMap() {
         new google.maps.Marker({
             position: bot,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'tra') {
@@ -117,7 +109,6 @@ function initMap() {
         new google.maps.Marker({
             position: tra,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'mar') {
@@ -128,7 +119,6 @@ function initMap() {
         new google.maps.Marker({
             position: mar,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'ofc') {
@@ -139,7 +129,6 @@ function initMap() {
         new google.maps.Marker({
             position: ofc,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'ask') {
@@ -150,7 +139,6 @@ function initMap() {
         new google.maps.Marker({
             position: ask,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'del') {
@@ -161,7 +149,6 @@ function initMap() {
         new google.maps.Marker({
             position: del,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'vat') {
@@ -172,7 +159,6 @@ function initMap() {
         new google.maps.Marker({
             position: vat,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'goc') {
@@ -183,7 +169,6 @@ function initMap() {
         new google.maps.Marker({
             position: goc,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'bro') {
@@ -205,7 +190,6 @@ function initMap() {
         new google.maps.Marker({
             position: rod,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'ava') {
@@ -216,7 +200,6 @@ function initMap() {
         new google.maps.Marker({
             position: ava,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'got') {
@@ -227,7 +210,6 @@ function initMap() {
         new google.maps.Marker({
             position: got,
             map,
-
         });
     }
 }
