@@ -138,6 +138,11 @@ body {
     padding: 20px;
     margin: 30px;
 }
+@media screen and (max-width: 500px) {
+  .food-guide {
+      padding: 0px;
+  }
+}
 /*End Restaurant Page*/
 
 /*Explore Map*/
