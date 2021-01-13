@@ -8,9 +8,7 @@
  
  ## About
 
-This project is made for the gym. It will be use by the users of gym who wants to know more about gym and for the business purpose of the owner who wants to grow his business.
-For gym owners it will be utility to increase their presence over the internet which lead to increase their business by adding more customer.
-It is designed to be responsive on all devices and easy to navigate for users and owner.
+
 
 ## Table of Contents
 
@@ -35,46 +33,32 @@ It is designed to be responsive on all devices and easy to navigate for users an
 
 ### User Stories
 
-This website will give an information to the users about the gym and their facilities.
-It tells about how to being healthy with fitness activity.
-It provides the campaign offer which attract users which gives benefit to both user (Good health) and gym owner (Profitability).
 
-- #### Any user who check the website first time wants to access the site and know about gym. 
+
+- ####  
     1. I want to easily understand the purpose and the layout of the site without additional instructions needed.
-    1. I want to intuitively navigate through the site to browse the content.
-    1. I want to know about gym what services they offer.
-    1. I want to know about training provided by gym.
-    1. I want to know about price details to check the price for different training.
-    1. I want to access gallery of gym to know more about inside picture of gym.
-    1. I want to access external links. 
+    1. 
 
-- #### The users who want to join the gym will check how far it is from their place and the contact details.
-    1. I want to look the contact details easily without going to any tab on page.
-    1. I want to look the address details easily without single click on screen.
-    1. I want to check any offers which should be on landing page and I can find easily.
+- #### 
+    1.
 
-- #### The users who want to be member for the gym will look for signup button.
-    1. I want to look the training which suits me.
-    1. I want to check the price for my training.
-    1. I want to look for signup button on landing page for becoming the member of gym.
+- #### 
+    1. 
 
-- #### The users who are already a member will look for signin button to check their account and also check if there is any new offers.
-    1. I want the site is responsive on all device as I usually use phone for doing all such type of stuff.
-    1. I want to be able to use the website on any device so I can keep it handy.
-    1. I want to use the navigation at all times and have it readily available so I can quickly navigate from one page to another.
-    1. I can easily find the sign in button on home page.
+- #### 
+    1.
 
 <a name="design"></a>     
 ## Design
 
 ### Colour 
       
-- #### This website is design for gym which needs lots of motivation.
-    The main color which is used for header and footer is dark blue which shows trust to stay with it.Which is perfectly fit for gym page.
+- #### 
+    
       
     <img src="assets/image/color/dblue.png" height="40px" />
     
-- #### The alice blue and white color is used for background-color which shows intelligence and simplicity respectively.Because of this color the content looks simple and clear.
+- #### 
       
     
     <img src="assets/image/color/white.png" height="40px" />
@@ -88,7 +72,7 @@ It provides the campaign offer which attract users which gives benefit to both u
 
 ### Imagery
 
-- #### Images used for website describe overall information and details of gym.
+- #### 
     -[Image Optimizer](http://jpeg-optimizer.com/)
 
 ### Mockups
@@ -133,27 +117,26 @@ It provides the campaign offer which attract users which gives benefit to both u
     - Footer
       - Footer has been designed to be at the bottom of the page, regardless of the amount of content. This aids the overall user experience.
       - All content has been spaced out and aligned to the center.
-      - Follow Us have social links and when hovered over, it changed the color.
-      - Address have the address details with phone no. and E-mail address.
-      - Opening Hours have the details of time and day.
-
+      - 
 
 ### Specific to Pages
 - #### Common Features Across All Pages
     - Home
-      - This page has header, footer and a hero image in background. The header has navigation bar and footer has contact, schedule time and social links.The image brings the user's attention and inviting the user to explore the website.
+      - 
 
-    - About Us
-      - The information of the gym to let the user know what the services gym provides.
-    
-    - Membership
-      - This page uses cards and grid system to display the information of offers and membership of different training.
+    - About Gothenburg
+      - 
+    - Attraction
+      - 
 
-    - Gallery
-      - This page display images of gym.
+    - Restaurant
+      - 
 
-    - Signin/Signup
-      - This page uses the form and allow you to signin/signup.
+    - Explore Map
+      - 
+
+    - contact
+      -
 
 ### Future Features
 
@@ -203,11 +186,11 @@ Validate by direct input
 Vaidate by direct input 
     [HTML5 Validator]("https://validator.w3.org/#validate_by_input")
   - Home Page Result : Pass
-  - About Us Page Result : Pass
-  - Membership Page Result : Pass
-  - Gallery Page Result : Warning  
-  - SignIn/SignUp Page Result : Pass
-  - SignUp Result : Pass
+  - About Gothenburg Page Result : Pass
+  - Attraction Page Result : Pass
+  - Restaurant Page Result : Pass  
+  - Explore Map Page Result : Warning
+  - Contact Result : Pass
 
 ### Usability Testing
   - This website is shared on slack channel to get the feedback.This is also shared with friends to check on different device and accessbility.
@@ -237,61 +220,38 @@ Vaidate by direct input
      <img src="assets/image/mockup/desktop/testd-index.png" height="120px"/>
      <img src="assets/image/mockup/mobile/test-index.png" height="120px"/>
 
-    - About Us Page Dektop and Mobile
+    - About Gothenburg Page Dektop and Mobile
 
-     <img src="assets/image/readme-img/aboutus-desktop.png" height="120px"/>
-     <img src="assets/image/readme-img/aboutus-mobile.png" height="120px"/>
+     <img src="assets/image/mockup/desktop/testd-about.png" height="120px"/>
+     <img src="assets/image/mockup/mobile/test-about.png" height="120px"/>
 
-    - Membership Page Dektop and Mobile
+    - Attraction Page Dektop and Mobile
 
-      <img src="assets/image/readme-img/membership-desktop.png" height="120px"/>
-      <img src="assets/image/readme-img/membership-mobile.png" height="120px"/>
+      <img src="assets/image/mockup/desktop/testd-attraction.png" height="120px"/>
+      <img src="assets/image/mockup/mobile/test-attraction.png" height="120px"/>
 
-    - Gallery Page Dektop and Mobile
+    - Restaurant Page Dektop and Mobile
 
-      <img src="assets/image/readme-img/gallery-desktop.png" height="120px"/>
-      <img src="assets/image/readme-img/gallery-mobile.png" height="120px"/>
+      <img src="assets/image/mockup/desktop/testd-restaurant.png" height="120px"/>
+      <img src="assets/image/mockup/mobile/test-restaurant.png" height="120px"/>
 
-    - Signin Page Dektop and Mobile
+    - Explore Map Page Dektop and Mobile
 
-      <img src="assets/image/readme-img/signin-desktop.png" height="120px"/>
-      <img src="assets/image/readme-img/signin-mobile.png" height="120px"/>
+      <img src="assets/image/mockup/desktop/testd-map.png" height="120px"/>
+      <img src="assets/image/mockup/mobile/test-map.png" height="120px"/>
 
-    - Signup Page Dektop and Mobile
+    - Contact Page Dektop and Mobile
    
-      <img src="assets/image/readme-img/signup-desktop.png" height="120px" />
-      <img src="assets/image/readme-img/signup-mobile.png" height="120px" />
+      <img src="assets/image/mockup/desktop/testd-contact.png" height="120px" />
+      <img src="assets/image/mockup/mobile/test-contact.png" height="120px" />
 
     
 ### Testing User Stories 
-- #### Any user who check the website first time wants to know about gym. User wants that they could easily navigate the tab to find the relevant information.
-    - I want to easily understand the purpose and the layout of the site without additional instructions needed.
-    - The landing page is simple and clear with a image and offer. 
-    - All pages of website has navigation bar and footer. 
-    - With navigation bar I can easily access diiferent page and go anywhere from present page and come back.
-    - The footer has contact details and link of email so I can easily add it to my contact. 
-    - Footer has clear information of opening hours.
-    - Footer has social link. If I click on link it open the relevant page on different tab so I can easily check the social activity of gym without closing site.
-    - I want to access external links and be able to learn more about each page.
-        - Home Page
-            - Home page provides the offer and signup button.When I click on signup button I reach to signup page.
-        - About Us Page
-            - About us page proides gym information ,equipment and different training plan.
-        - Membership Page
-            - Membership page provides membership plan like monthy yearly with price details.There is also loyality program from blue to gold membership.There is signup button too.
-        - Gallery Page
-            - In gallery page there are many pictures of gym.
-        - Signin/Signup Page
-            - Signin/signup page provides signin form with signin button.
+- #### 
+- #### 
+- #### 
 
-- #### The users who want to join the gym will look for address and contact details. They will also check for any offers.
-    - I want to look for address and contact details which I can easily find in footer on all pages.
-
-- #### The users who want to be member for the gym will look for membership plan and signup button.
-    - I want to be member so I check membership tab.There I can easily find all membership plan with price details.There is signup button too.
-
-- #### The users who are already a member will look for signin button to check their account and also check if there is any new offers.
-    - I want to check my account and in header I can see signin option on all pages.
+- #### 
         
 <a name="deployment"></a>
 ## Deployment
@@ -299,7 +259,7 @@ Vaidate by direct input
 - ### Publishing
   This website was published using [GitHub Pages](https://pages.github.com/). The procedure is outlined below.
   1. Go to the GitHub website and log in.
-  2. On the left-hand side, you'll see all your repositories, select the appropriate one. ([Repository](https://github.com/RubySrivastava/ms1-gym/) used for this project).
+  2. On the left-hand side, you'll see all your repositories, select the appropriate one. ([Repository](https://github.com/RubySrivastava/exploregothenburg/) used for this project).
   3. Under the name of your chosen Repository you will see a ribbon of selections, click on 'Settings' located on the right hand side.
   4. Scroll down till you see 'GitHub Pages' heading.
   5. Under the 'Source' click on the dropdown and select 'master branch'
@@ -309,7 +269,7 @@ Vaidate by direct input
 - ### Forking
   If you wish to contribute to this website you can Fork it without affecting the main branch by following the procedure outlined below.
   1. Go to the GitHub website and log in.
-  2. Locate the [Repository](https://github.com/RubySrivastava/ms1-gym/) used for this project.
+  2. Locate the [Repository](https://github.com/RubySrivastava/exploregothenburg/) used for this project.
   3. On the right-hand side of the Repository name, you'll see the 'Fork' button. It's located next to the 'Star' and 'Watch' buttons.
   4. This will create a copy in your personal repository.
   5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
@@ -317,7 +277,7 @@ Vaidate by direct input
 - ### Cloning 
   If you wish to clone or download this repository to your local device you can follow the procedure outlined below.
   1. Go to the GitHub website and log in.
-  2. Locate the [Repository](https://github.com/RubySrivastava/ms1-gym/) used for this project.
+  2. Locate the [Repository](https://github.com/RubySrivastava/exploregothenburg/) used for this project.
   3. Under the Repository name locate 'Clone or Download' button in green.
   4. To clone the repository using HTTPS click the link under "Clone with HTTPS".
   5. Open your Terminal and go to a directory where you want the cloned directory to be copied in.
@@ -352,7 +312,7 @@ There are no identified bugs as at now.
 
 ### Acknowledgements :
 
-- I was inspired by the people of surrounding me who are taking care of their health very seriously.
+- 
 - Thanks to my fellow student and tutors on slack channel who helped me in some way.
 - Thanks to my mentor for helping me throughout the project and giving me important suggestions and feedback of my work.
 
