@@ -234,6 +234,7 @@ div#map {min-height: 500px;}
 #myBtnTop:hover {
   background-color: #555; 
 }
+/*media query*/
 @media screen and (max-width: 500px) {
   #myBtnTop {
   padding: 10px;
@@ -259,6 +260,7 @@ div#map {min-height: 500px;}
 #myBtn:hover {
   background-color: #555;
 }
+/*media query*/
 @media screen and (max-width: 500px) {
   #myBtn {
   padding: 10px;
