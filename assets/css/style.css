@@ -124,9 +124,16 @@ body {
 @media screen and (max-width: 500px) {
   .page-heading {
       font-size: 20px;
+      padding: 5px;
+  }
+  .top-text {
+      padding-top: 0px;
   }
   .bdcard-title {
       font-size: 20px;
+  }
+  .bdcard-text {
+      font-size: 15px;
   }
 }
 /*End about Page*/
@@ -227,12 +234,17 @@ div#map {min-height: 500px;}
 #myBtnTop:hover {
   background-color: #555; 
 }
+@media screen and (max-width: 500px) {
+  #myBtnTop {
+  padding: 10px;
+  }
+}
 /*End Back to Top Button for about page*/
 
 /*Back to Top Button for attraction page*/
 #myBtn {display: none; 
   position: fixed;
-  bottom: 140px; 
+  bottom: 110px; 
   right: 30px; 
   z-index: 99; 
   border: none; 
@@ -246,6 +258,11 @@ div#map {min-height: 500px;}
 }
 #myBtn:hover {
   background-color: #555;
+}
+@media screen and (max-width: 500px) {
+  #myBtn {
+  padding: 10px;
+  }
 }
 /*End Back to Top Button for about page*/
 
@@ -330,3 +347,5 @@ a {
   padding: 10px;
   text-align: center;
 }
+/*End Footer*/
+
