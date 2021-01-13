@@ -8,6 +8,10 @@
  
  ## About
 
+This project is made for travellers who wants to travel to Gothenburg.
+This website is made with the personal experience of site owner who lives in Gothenburg and explore it.
+For site owners it will be utility to increase their presence over the internet which lead to increase their business by adding more content.
+It is designed to be responsive on all devices and easy to navigate for users and owner.
 
 
 ## Table of Contents
@@ -152,6 +156,8 @@
 
   - [HTML5](https://en.wikipedia.org/wiki/HTML5)
   - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+  - [JavaScript](https://en.wikipedia.org/wiki/Javascript)
+  - [Jquery](https://en.wikipedia.org/wiki/JQuery)
 
 ### Frameworks, Libraries and Programs Used
 
@@ -192,6 +198,10 @@ Vaidate by direct input
   - Explore Map Page Result : Warning
   - Contact Result : Pass
 
+### JavaScript validator
+    [JavaScript Validator]("https://jshint.com/")
+  - Test result : No Error Found But Warning
+
 ### Usability Testing
   - This website is shared on slack channel to get the feedback.This is also shared with friends to check on different device and accessbility.
 
@@ -217,33 +227,33 @@ Vaidate by direct input
   - #### A Lighthouse report in Chrome DevTools
     - Home Page Dektop and Mobile
 
-     <img src="assets/image/mockup/desktop/testd-index.png" height="120px"/>
-     <img src="assets/image/mockup/mobile/test-index.png" height="120px"/>
+     <img src="assets/image/lighthouse/desktop/testd-index.png" height="120px"/>
+     <img src="assets/image/lighthouse/mobile/test-index.png" height="120px"/>
 
     - About Gothenburg Page Dektop and Mobile
 
-     <img src="assets/image/mockup/desktop/testd-about.png" height="120px"/>
-     <img src="assets/image/mockup/mobile/test-about.png" height="120px"/>
+     <img src="assets/image/lighthouse/desktop/testd-about.png" height="120px"/>
+     <img src="assets/image/lighthouse/mobile/test-about.png" height="120px"/>
 
     - Attraction Page Dektop and Mobile
 
-      <img src="assets/image/mockup/desktop/testd-attraction.png" height="120px"/>
-      <img src="assets/image/mockup/mobile/test-attraction.png" height="120px"/>
+      <img src="assets/image/lighthouse/desktop/testd-attraction.png" height="120px"/>
+      <img src="assets/image/lighthouse/mobile/test-attraction.png" height="120px"/>
 
     - Restaurant Page Dektop and Mobile
 
-      <img src="assets/image/mockup/desktop/testd-restaurant.png" height="120px"/>
-      <img src="assets/image/mockup/mobile/test-restaurant.png" height="120px"/>
+      <img src="assets/image/lighthouse/desktop/testd-restaurant.png" height="120px"/>
+      <img src="assets/image/lighthouse/mobile/test-restaurant.png" height="120px"/>
 
     - Explore Map Page Dektop and Mobile
 
-      <img src="assets/image/mockup/desktop/testd-map.png" height="120px"/>
-      <img src="assets/image/mockup/mobile/test-map.png" height="120px"/>
+      <img src="assets/image/lighthouse/desktop/testd-map.png" height="120px"/>
+      <img src="assets/image/lighthouse/mobile/test-map.png" height="120px"/>
 
     - Contact Page Dektop and Mobile
    
-      <img src="assets/image/mockup/desktop/testd-contact.png" height="120px" />
-      <img src="assets/image/mockup/mobile/test-contact.png" height="120px" />
+      <img src="assets/image/lighthouse/desktop/testd-contact.png" height="120px" />
+      <img src="assets/image/lighthouse/mobile/test-contact.png" height="120px" />
 
     
 ### Testing User Stories 
@@ -295,6 +305,8 @@ There are no identified bugs as at now.
 ### Code :
 
 - Bootstrap library was used to create a responsive design. 
+- Code snippet for back to top button(for about.html & attraction.html) taken from [w3Scools website](https://www.w3schools.com/) 
+- Code snippet for map taken from [google cloud platform](https://cloud.google.com/)
 
 ### Content :
 
@@ -305,14 +317,17 @@ There are no identified bugs as at now.
     - Code Institute [README Template](https://github.com/Code-Institute-Solutions/readme-template)
     - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
     
-- All content was written by the coder after getting ideas from fitness website(Specially Nordic Wellness and Fitness27seven).
+- To write up the content of page the most helpful site is
+    - Goteborg Official Page [Official Website](https://www.goteborg.com/)
+    
 
 ### Media :
-- All images used were taken from [UnSplash website](https://unsplash.com/)
+- Some images used were taken from [UnSplash website](https://unsplash.com/)
+- Some images clicked by developer(Ruby Srivastava) itself.
 
 ### Acknowledgements :
 
-- 
+- I was inspired by the people of surrounding me who are very much enthiustic and curious travellers.
 - Thanks to my fellow student and tutors on slack channel who helped me in some way.
 - Thanks to my mentor for helping me throughout the project and giving me important suggestions and feedback of my work.
 
