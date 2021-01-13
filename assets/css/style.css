@@ -41,6 +41,7 @@ body {
 .landing-text a:hover {
     color: white;
 }
+/*media query*/
 @media screen and (max-width: 768px) {
   .landing-text {
     font-size:10px;
@@ -119,6 +120,7 @@ body {
     font-size:20px;
     font-family:"Expo";
 }
+/*media query*/
 @media screen and (max-width: 500px) {
   .page-heading {
       font-size: 20px;
@@ -138,6 +140,7 @@ body {
     padding: 20px;
     margin: 30px;
 }
+/*media query*/
 @media screen and (max-width: 500px) {
   .food-guide {
       padding: 0px;
@@ -188,7 +191,6 @@ div#map {min-height: 500px;}
     background-color:#002a4e;
     color: white;
 }
-
 /*End Contact Page*/
 
 /*Buttons*/
@@ -208,42 +210,42 @@ div#map {min-height: 500px;}
 /*End Button*/
 
 /*Back to Top Button for about page*/
-#myBtnTop {display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 140px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #002a4e; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 15px; /* Increase font size */
+#myBtnTop {display: none; 
+  position: fixed; 
+  bottom: 140px; 
+  right: 30px; 
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #002a4e; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 15px;
 }
 #myBtnTop:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #555; 
 }
 /*End Back to Top Button for about page*/
 
 /*Back to Top Button for attraction page*/
-#myBtn {display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 140px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #002a4e; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 15px; /* Increase font size */
+#myBtn {display: none; 
+  position: fixed;
+  bottom: 140px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none;
+  background-color: #002a4e; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 15px;
 }
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #555;
 }
 /*End Back to Top Button for about page*/
 
@@ -276,6 +278,7 @@ a {
 .ml-auto {
   margin-left: inherit;
 }
+/*media query*/
 @media screen and (max-width: 500px) {
   .navbar a {
     float: none;
