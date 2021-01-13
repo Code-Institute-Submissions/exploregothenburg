@@ -179,7 +179,6 @@ function initMap() {
         new google.maps.Marker({
             position: bro,
             map,
-
         });
     }
     else if (document.getElementById("location").value == 'rod') {

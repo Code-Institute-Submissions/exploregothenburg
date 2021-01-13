@@ -1,3 +1,4 @@
+//Code from w3 school tutorial
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
