@@ -82,7 +82,7 @@ It is designed to be responsive on all devices and easy to navigate for users an
 ### Mockups
 
 - #### Mockups were created using Adobe Xd.
-    -[Desktop Wireframes](https://xd.adobe.com/view/6fd631a7-5485-457b-bd28-9d3cc5bb0178-3a85/)
+    -[Desktop Wireframes](https://xd.adobe.com/view/07fb6c5c-9818-4af3-9d27-b273d6bfa607-52a8/)
 - #### Mockup made through original website 
     -[Wireframes](https://techsini.com/multi-mockup/index.php)
     
