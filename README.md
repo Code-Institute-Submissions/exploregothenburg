@@ -37,20 +37,35 @@ It is designed to be responsive on all devices and easy to navigate for users an
 
 ### User Stories
 
+This website gives the very initial and essential information about Gothenburg. 
+Any traveller who wants to come and explore Gothenburg then this website is perfect for him.
+In this website he get the information about attraction places and activity places.This site has a list of best restaurant in Gothenburg.
+This site also provide the location and map of different places.
 
-
-- ####  
+- ####  International Traveller
     1. I want to easily understand the purpose and the layout of the site without additional instructions needed.
-    1. 
+    1. I want to intuitively navigate through the site to browse the content.
+    1. I want to know about basic information before visit like currency, language and culture.
+    1. I want to know about best place to visit here.
+    1. I want to know about best place to go for different activity.
+    1. I want to know about best place to eat and drink.
+    1. I want to access images of Gothenurg to know more about this city.
+    1. I want to access external social links to know traveller experience.
+    1. I want to get extra information about Gothenburg. 
 
-- #### 
-    1.
+- #### Local Traveller
+    1. I want to easily understand the purpose and the layout of the site without additional instructions needed.
+    1. I want to intuitively navigate through the site to browse the content.
+    1. I want to know about best place to visit here.
+    1. I want to know about best place to go for different activity.
+    1. I want to access images of Gothenurg to know more about this city.
+    1. I want to access external social links to know traveller experience. 
 
-- #### 
-    1. 
-
-- #### 
-    1.
+- #### Business Traveller
+    1. I want the site is responsive on all device as I usually use phone for doing all such type of stuff.
+    1. I want to be able to use the website on any device so I can keep it handy.
+    1. I want to use the navigation at all times and have it readily available so I can quickly navigate from one page to another.
+    1. I can easily find the location of different place.
 
 <a name="design"></a>     
 ## Design
