@@ -137,24 +137,23 @@ This site also provide the location and map of different places.
       - There are social links and when hovered over, it changed the color.
 
 ### Specific to Pages
+- Home Page
+    - This page has header, footer and a hero image in background with a video link. The header has navigation bar and footer has copyright and social links.The image brings the user's attention and inviting the user to explore the website.
 
-    - Home Page
-      - This page has header, footer and a hero image in background with a video link. The header has navigation bar and footer has copyright and social links.The image brings the user's attention and inviting the user to explore the website.
+- About Gothenburg Page
+    - This page has very essential information about Gothenburg like currency, language, weather and transport.
 
-    - About Gothenburg Page
-      - This page has very essential information about Gothenburg like currency, language, weather and transport.
+- Attraction Page
+    - This page has details about most attractive places.In Gothenburg, we have very nice archipelago, hilly area of mountain biking along with wind surfing. Last but not the least very beautiful city to cover by walk or taking a bike trip. Gothenburg is 400 year old city so you can have good number of museums, opera,and amusement parks. 
 
-    - Attraction Page
-      - This page has details about most attractive places.In Gothenburg, we have very nice archipelago, hilly area of mountain biking along with wind surfing. Last but not the least very beautiful city to cover by walk or taking a bike trip. Gothenburg is 400 year old city so you can have good number of museums, opera,and amusement parks. 
+- Restaurant Page
+    - This page has some famous and good place list to eat and drink which experienced by site owner himself.
 
-    - Restaurant Page
-      - This page has some famous and good place list to eat and drink which experienced by site owner himself.
+- Explore Map Page
+    - In this page user get the map of location just by selecting the location.
 
-    - Explore Map Page
-      - In this page user get the map of location just by selecting the location.
-
-    - contact Page
-      - In the page user can contact to owner for more information.
+- contact Page
+    - In the page user can contact to owner for more information.
 
 ### Future Features
   - A page where all the details of hotels and their rates and booking details.
@@ -271,12 +270,30 @@ Vaidate by direct input
 
     
 ### Testing User Stories 
-- #### 
-- #### 
-- #### 
+- #### International Traveller 
+    - I want to easily understand the purpose and the layout of the site without additional instructions needed.
+    - The landing page is simple and clear with a video link of attraction places. 
+    - All pages of website has navigation bar and footer. 
+    - With navigation bar I can easily access diiferent page and go anywhere from present page and come back.
+    - The footer has contact details and link of email so I can easily add it to my contact. 
+    - Footer has clear information of opening hours.
+    - Footer has social link. If I click on link it open the relevant page on different tab so I can easily check the social activity of gym without closing site.
+    - I want to access external links and be able to learn more about each page.
+        - Home Page
+            - Home page provides the offer and signup button.When I click on signup button I reach to signup page.
+        - About Us Page
+            - About us page proides gym information ,equipment and different training plan.
+        - Membership Page
+            - Membership page provides membership plan like monthy yearly with price details.There is also loyality program from blue to gold membership.There is signup button too.
+        - Gallery Page
+            - In gallery page there are many pictures of gym.
+        - Signin/Signup Page
+            - Signin/signup page provides signin form with signin button.
 
-- #### 
-        
+- #### Local Traveller 
+    -
+- #### Business Traveller
+    -    
 <a name="deployment"></a>
 ## Deployment
 
