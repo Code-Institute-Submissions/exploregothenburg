@@ -45,7 +45,7 @@ This site also provide the location and map of different places.
 - ####  International Traveller
     1. I want to easily understand the purpose and the layout of the site without additional instructions needed.
     1. I want to intuitively navigate through the site to browse the content.
-    1. I want to know about basic information before visit like currency, language and culture.
+    1. I want to know about basic information before visit like currency, language,weather and transport.
     1. I want to know about best place to visit here.
     1. I want to know about best place to go for different activity.
     1. I want to know about best place to eat and drink.
@@ -72,18 +72,16 @@ This site also provide the location and map of different places.
 
 ### Colour 
       
-- #### 
+- #### This website is design for travellers who needs lots of motivation to travel.
+    The main color which is used for header and footer is dark blue which shows trust to stay with it.Which is perfectly fit for travel guide.
     
-      
     <img src="assets/image/color/dblue.png" height="40px" />
     
-- #### 
+- #### The black and white color is used for text-color and background-color which shows intelligence and simplicity respectively.Because of this color the content looks simple and clear.
       
-    
     <img src="assets/image/color/white.png" height="40px" />
     <img src="assets/image/color/black.png" height="40px" />
       
-
 ### Typography
 
 - #### The main font used is a Roboto with sans-serif as a fallback font.
@@ -136,30 +134,31 @@ This site also provide the location and map of different places.
     - Footer
       - Footer has been designed to be at the bottom of the page, regardless of the amount of content. This aids the overall user experience.
       - All content has been spaced out and aligned to the center.
-      - 
+      - There are social links and when hovered over, it changed the color.
 
 ### Specific to Pages
-- #### Common Features Across All Pages
-    - Home
-      - 
 
-    - About Gothenburg
-      - 
-    - Attraction
-      - 
+    - Home Page
+      - This page has header, footer and a hero image in background with a video link. The header has navigation bar and footer has copyright and social links.The image brings the user's attention and inviting the user to explore the website.
 
-    - Restaurant
-      - 
+    - About Gothenburg Page
+      - This page has very essential information about Gothenburg like currency, language, weather and transport.
 
-    - Explore Map
-      - 
+    - Attraction Page
+      - This page has details about most attractive places.In Gothenburg, we have very nice archipelago, hilly area of mountain biking along with wind surfing. Last but not the least very beautiful city to cover by walk or taking a bike trip. Gothenburg is 400 year old city so you can have good number of museums, opera,and amusement parks. 
 
-    - contact
-      -
+    - Restaurant Page
+      - This page has some famous and good place list to eat and drink which experienced by site owner himself.
+
+    - Explore Map Page
+      - In this page user get the map of location just by selecting the location.
+
+    - contact Page
+      - In the page user can contact to owner for more information.
 
 ### Future Features
-
-  - Ongoing implementation of user feedback.
+  - A page where all the details of hotels and their rates and booking details.
+  - A page to book a full trip plan for customer.
   - Create a way for the user to rate the website without having to type up feedback.
   - A page where people can review the comments.
 
@@ -210,7 +209,7 @@ Vaidate by direct input
   - About Gothenburg Page Result : Pass
   - Attraction Page Result : Pass
   - Restaurant Page Result : Pass  
-  - Explore Map Page Result : Warning
+  - Explore Map Page Result : Pass
   - Contact Result : Pass
 
 ### JavaScript validator
@@ -342,10 +341,10 @@ There are no identified bugs as at now.
 
 ### Acknowledgements :
 
-- I was inspired by the people of surrounding me who are very much enthiustic and curious travellers.
+- I was inspired by the people of surrounding me who are very much enthusiastic and curious travellers.
 - Thanks to my fellow student and tutors on slack channel who helped me in some way.
 - Thanks to my mentor for helping me throughout the project and giving me important suggestions and feedback of my work.
-
+ 
 
 
 
