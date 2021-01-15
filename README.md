@@ -275,21 +275,20 @@ Vaidate by direct input
     - The landing page is simple and clear with a video link of attraction places. 
     - All pages of website has navigation bar and footer. 
     - With navigation bar I can easily access diiferent page and go anywhere from present page and come back.
-    - The footer has contact details and link of email so I can easily add it to my contact. 
-    - Footer has clear information of opening hours.
-    - Footer has social link. If I click on link it open the relevant page on different tab so I can easily check the social activity of gym without closing site.
+    - Footer has social link. If I click on link it open the relevant page on different tab so I can easily check the social activity.
     - I want to access external links and be able to learn more about each page.
         - Home Page
-            - Home page provides the offer and signup button.When I click on signup button I reach to signup page.
-        - About Us Page
-            - About us page proides gym information ,equipment and different training plan.
-        - Membership Page
-            - Membership page provides membership plan like monthy yearly with price details.There is also loyality program from blue to gold membership.There is signup button too.
-        - Gallery Page
-            - In gallery page there are many pictures of gym.
-        - Signin/Signup Page
-            - Signin/signup page provides signin form with signin button.
-
+            - Home page provides the video link which cover the attractions of Gotheburg.
+        - About Gothenburg Page
+            - About us page provides me all essential information of Gothenburg.There I find the language currency and weather details. I also find about transport and how to use and take it. When I click on read more link it reaches the official website page of relevant page.
+        - Attraction Page
+            - Attraction page provides me the list of most visited and famous spot of Gothenburg. There is also the list of activity like canoe and kayak.
+        - Restaurant Page
+            - Restaurant page gives me the list of good restaurant to eat and drink.
+        - Explore Map Page
+            - In this page I can easily find the map of selected location from the dropdown list.
+        - Contact Page    
+            - In this page I can contact to the owner of site for information by just filling the form with query.
 - #### Local Traveller 
     -
 - #### Business Traveller
