@@ -39,33 +39,35 @@ It is designed to be responsive on all devices and easy to navigate for users an
 
 This website gives the very initial and essential information about Gothenburg. 
 Any traveller who wants to come and explore Gothenburg then this website is perfect for him.
-In this website he get the information about attraction places and activity places.This site has a list of best restaurant in Gothenburg.
+In this website he gets the information about attraction places and activity places.This site has a list of best restaurant in Gothenburg.
 This site also provide the location and map of different places.
 
-- ####  International Traveller
+- ####  Generic Traveller
     1. I want to easily understand the purpose and the layout of the site without additional instructions needed.
     1. I want to intuitively navigate through the site to browse the content.
-    1. I want to know about basic information before visit like currency, language,weather and transport.
-    1. I want to know about best place to visit here.
-    1. I want to know about best place to go for different activity.
-    1. I want to know about best place to eat and drink.
-    1. I want to access images of Gothenurg to know more about this city.
-    1. I want to access external social links to know traveller experience.
-    1. I want to get extra information about Gothenburg. 
-
-- #### Local Traveller
-    1. I want to easily understand the purpose and the layout of the site without additional instructions needed.
-    1. I want to intuitively navigate through the site to browse the content.
-    1. I want to know about best place to visit here.
-    1. I want to know about best place to go for different activity.
-    1. I want to access images of Gothenurg to know more about this city.
-    1. I want to access external social links to know traveller experience. 
-
-- #### Business Traveller
     1. I want the site is responsive on all device as I usually use phone for doing all such type of stuff.
     1. I want to be able to use the website on any device so I can keep it handy.
     1. I want to use the navigation at all times and have it readily available so I can quickly navigate from one page to another.
     1. I can easily find the location of different place.
+
+- #### Tourist
+    1. I want to know about basic information before visit like currency, language,weather and transport.
+    1. I want to know about best place to visit there.
+    1. I want to know about best place to go for different activity.
+    1. I want to know about best place to eat and drink.
+    1. I want to access images of Gothenurg to know more about this city.
+    1. I want to access external social links to know traveller experiences.
+    1. I want to get transport information about Gothenburg. 
+
+- #### Local Traveller
+    1. I want to know about beautiful place in near by Gotheburg
+    1. I want to know explore different activities are available in city.
+    1. I want to access transportation and nice restaurant in city for dining.
+    1. I want to get fello traveller experience about the places and activities. 
+
+- #### Business Traveller
+    1. As a business traveller would like to know specific places to explore in the city within given a time period.
+    2. I want to know more about the food places and after work places in city.
 
 <a name="design"></a>     
 ## Design
