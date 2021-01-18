@@ -200,12 +200,12 @@ This site also provide the location and map of different places.
     
 ### CSS3 validator 
 Validate by direct input 
-    [CSS Validator]("https://jigsaw.w3.org/css-validator/")
+    [CSS Validator](https://jigsaw.w3.org/css-validator/)
   - Test result : No Error Found But Warning
 
 ### HTML5 validator
 Vaidate by direct input 
-    [HTML5 Validator]("https://validator.w3.org/#validate_by_input")
+    [HTML5 Validator](https://validator.w3.org/#validate_by_input)
   - Home Page Result : Pass
   - About Gothenburg Page Result : Pass
   - Attraction Page Result : Pass
@@ -214,7 +214,8 @@ Vaidate by direct input
   - Contact Page Result : Pass
 
 ### JavaScript validator
-    [JavaScript Validator]("https://jshint.com/")
+Validate by direct input
+    [JavaScript Validator](https://jshint.com/)
   - Test result : No Error Found But Warning
 
 ### Usability Testing
