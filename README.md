@@ -60,14 +60,14 @@ This site also provide the location and map of different places.
     1. I want to get transport information about Gothenburg. 
 
 - #### Local Traveller
-    1. I want to know about beautiful place in near by Gotheburg
-    1. I want to know explore different activities are available in city.
-    1. I want to access transportation and nice restaurant in city for dining.
-    1. I want to get fello traveller experience about the places and activities. 
+    1. I want to know about beautiful place in near by Gotheburg.
+    1. I want to explore different activities available in city.
+    1. I want to access transportation.
 
 - #### Business Traveller
-    1. As a business traveller would like to know specific places to explore in the city within given a time period.
-    2. I want to know more about the food places and after work places in city.
+    1. As a business traveller would like to know specific places to explore in the city within given time period.
+    1. I want to know more about the food places near to my workplace.
+    1. I want to know after work activity in city.
 
 <a name="design"></a>     
 ## Design
@@ -75,11 +75,11 @@ This site also provide the location and map of different places.
 ### Colour 
       
 - #### This website is design for travellers who needs lots of motivation to travel.
-    The main color which is used for header and footer is dark blue which shows trust to stay with it.Which is perfectly fit for travel guide.
+    The main color which is used for header and footer is dark blue which shows trust to stay with it which is perfectly fit for travel guide.
     
     <img src="assets/image/color/dblue.png" height="40px" />
     
-- #### The black and white color is used for text-color and background-color which shows intelligence and simplicity respectively.Because of this color the content looks simple and clear.
+- #### The black and white color is used for text-color and background-color which show intelligence and simplicity respectively.Because of this color the content looks simple and clear.
       
     <img src="assets/image/color/white.png" height="40px" />
     <img src="assets/image/color/black.png" height="40px" />
@@ -155,7 +155,7 @@ This site also provide the location and map of different places.
     - In this page user get the map of location just by selecting the location.
 
 - contact Page
-    - In the page user can contact to owner for more information.
+    - In this page user can contact to owner for more information.
 
 ### Future Features
   - A page where all the details of hotels and their rates and booking details.
@@ -211,7 +211,7 @@ Vaidate by direct input
   - Attraction Page Result : Pass
   - Restaurant Page Result : Pass  
   - Explore Map Page Result : Pass
-  - Contact Result : Pass
+  - Contact Page Result : Pass
 
 ### JavaScript validator
     [JavaScript Validator]("https://jshint.com/")
@@ -272,8 +272,8 @@ Vaidate by direct input
 
     
 ### Testing User Stories 
-- #### International Traveller 
-    - I want to easily understand the purpose and the layout of the site without additional instructions needed.
+- #### Generic Traveller
+    - I easily understand the purpose and the layout of the site without additional instructions needed.
     - The landing page is simple and clear with a video link of attraction places. 
     - All pages of website has navigation bar and footer. 
     - With navigation bar I can easily access diiferent page and go anywhere from present page and come back.
@@ -291,10 +291,23 @@ Vaidate by direct input
             - In this page I can easily find the map of selected location from the dropdown list.
         - Contact Page    
             - In this page I can contact to the owner of site for information by just filling the form with query.
+
+- #### Tourist 
+    - I get the basic information on about gothenburg page like currency, language, weather and transport.
+    - I get the information about most visiting place in attraction page.
+    - I get the information about best place to eat and drink in eat & drink page.
+    - At home page I get the link of a video which cover most attractive place of gothenburg.
+    - I get the social links i footer for more experience of other traveller.
+
 - #### Local Traveller 
-    -
+    - I get most visited attraction list in attraction page.
+    - I get most doing activity in attraction page.
+    - I get the transport information in about gothenburg page.
+    
 - #### Business Traveller
-    -    
+    - As a business traveller I have limited time so I get the well organised and interest base disvided attraction places in attraction page.   
+    - I get the best restaurant list by my choice type within city. 
+
 <a name="deployment"></a>
 ## Deployment
 
