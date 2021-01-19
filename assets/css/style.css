@@ -44,7 +44,7 @@ body {
 /*media query*/
 @media screen and (max-width: 768px) {
   .landing-text {
-    font-size:10px;
+    font-size:15px;
   }
   h2 {
      font-size:20px; 
@@ -89,6 +89,7 @@ body {
 .card-img {
   width: 100%;
   height:400px;
+  object-fit: cover;
   border-radius: calc(0.25rem - 1px);
   padding: 10px;
 }
@@ -345,6 +346,9 @@ a {
   width: 100%;
   bottom: 0px;
   margin-top: auto;
+}
+.f-text{
+    font-family:"Expo";
 }
 .footer-div {
     padding-top: 10px;
