@@ -87,7 +87,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img class="card-img img-fluid" src="assets/image/img-about/language.jpg" alt="people talking">
+                        <img class="card-img img-fluid" src="assets/image/img-about/language.jpg" onclick="openModal();currentSlide(1)" alt="people talking">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
@@ -108,7 +108,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img class="card-img img-fluid" src="assets/image/img-about/currency.jpg" alt="currency">
+                        <img class="card-img img-fluid" src="assets/image/img-about/currency.jpg" onclick="openModal();currentSlide(2)" alt="currency">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
@@ -128,7 +128,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img class="card-img img-fluid" src="assets/image/img-about/spring.jpg" alt="spring">
+                        <img class="card-img img-fluid" src="assets/image/img-about/spring.jpg" onclick="openModal();currentSlide(3)" alt="spring">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
@@ -147,7 +147,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img class="card-img img-fluid" src="assets/image/img-about/summer.jpg" alt="summer">
+                        <img class="card-img img-fluid" src="assets/image/img-about/summer.jpg" onclick="openModal();currentSlide(4)" alt="summer">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
@@ -168,7 +168,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img class="card-img img-fluid" src="assets/image/img-about/autumn.jpg" alt="autumn">
+                        <img class="card-img img-fluid" src="assets/image/img-about/autumn.jpg" onclick="openModal();currentSlide(5)" alt="autumn">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
@@ -187,7 +187,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img class="card-img img-fluid" src="assets/image/img-about/winter.jpg" alt="winter">
+                        <img class="card-img img-fluid" src="assets/image/img-about/winter.jpg" onclick="openModal();currentSlide(6)" alt="winter">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
@@ -210,7 +210,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img class="card-img img-fluid" src="assets/image/img-about/cycle.jpg" alt="Cycle">
+                        <img class="card-img img-fluid" src="assets/image/img-about/cycle.jpg" onclick="openModal();currentSlide(7)" alt="Cycle">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
@@ -229,7 +229,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img class="card-img img-fluid" src="assets/image/img-about/ebike.jpg" alt="Electric bike">
+                        <img class="card-img img-fluid" src="assets/image/img-about/ebike.jpg" onclick="openModal();currentSlide(8)" alt="Electric bike">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
@@ -249,7 +249,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img class="card-img img-fluid" src="assets/image/img-about/bus.jpg" alt="Bus">
+                        <img class="card-img img-fluid" src="assets/image/img-about/bus.jpg" onclick="openModal();currentSlide(9)" alt="Bus">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
@@ -268,7 +268,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img class="card-img img-fluid" src="assets/image/img-about/tram.jpg" alt="Tram">
+                        <img class="card-img img-fluid" src="assets/image/img-about/tram.jpg" onclick="openModal();currentSlide(2)" alt="Tram">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
@@ -283,6 +283,55 @@
                                 href="https://www.goteborg.com/">Read More</a>
                         </div>
                     </div>
+                </div>
+            </div>
+            <!-- The Lightbox -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 10</div>
+                        <img src="assets/image/img-about/language.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 10</div>
+                        <img src="assets/image/img-about/currency.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 10</div>
+                        <img src="assets/image/img-about/spring.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 10</div>
+                        <img src="assets/image/img-about/summer.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 10</div>
+                        <img src="assets/image/img-about/autumn.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 10</div>
+                        <img src="assets/image/img-about/winter.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">7 / 10</div>
+                        <img src="assets/image/img-about/cycle.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">8 / 10</div>
+                        <img src="assets/image/img-about/ebike.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">9 / 10</div>
+                        <img src="assets/image/img-about/bus.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">10 / 10</div>
+                        <img src="assets/image/img-about/tram.jpg" style="width:100%">
+                    </div>
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
             </div>
         </section>
@@ -331,6 +380,7 @@
     <!--footer-->
     <!--Script for back to top button-->
     <script src="assets/js/top-button.js"></script>
+    <script src="assets/js/image.js"></script>
 </body>
 
 </html>
