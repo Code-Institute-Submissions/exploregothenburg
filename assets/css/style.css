@@ -41,6 +41,10 @@ body {
 .landing-text a:hover {
     color: white;
 }
+.link-deco{
+    text-decoration: underline;
+    color: maroon;
+}
 /*media query*/
 @media screen and (max-width: 768px) {
   .landing-text {
