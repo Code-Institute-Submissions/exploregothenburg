@@ -1,28 +1,28 @@
 function initMap() {
-    var men = { lat: 57.708870, lng: 11.974560 }; /*Gothenburg*/
-    var vra = { lat: 57.571000, lng: 11.785640 }; /*Vrango*/
-    var lis = { lat: 57.695219, lng: 11.992464 }; /*Liseberg*/
-    var bor = { lat: 57.721000, lng: 12.940250 }; /*Boras*/
-    var slo = { lat: 57.683966, lng: 11.943923 }; /*Slottsskogen*/
-    var uni = { lat: 57.695535, lng: 11.989406 }; /*Universeum*/
-    var gom = { lat: 57.706389, lng: 11.963889 }; /*Goteborg Museum*/
-    var bot = { lat: 57.682853, lng: 11.950377 }; /*Botaniska*/
-    var tra = { lat: 57.707174, lng: 11.975132 }; /*Tradgarden*/
-    var mar = { lat: 57.88845, lng: 11.596745 }; /*Marstrand*/
-    var ofc = { lat: 57.696314, lng: 11.948104 }; /*Oscar Fredrik Church*/
-    var ask = { lat: 57.615844, lng: 11.945608 }; /*Askim*/
-    var del = { lat: 57.684722, lng: 12.045833 }; /*Delsjon*/
-    var vat = { lat: 57.813243, lng: 12.052485 }; /*Vattlestugan*/
-    var goc = { lat: 58.107690, lng: 12.149440 }; /*Gota Canal*/
-    var bro = { lat: 57.705544, lng: 11.963371 }; /*Brogyllen*/
-    var rod = { lat: 57.696264, lng: 11.952316 }; /*Rada Gelato*/
-    var ava = { lat: 57.703977, lng: 11.968236 }; /*Avalon*/
-    var got = { lat: 57.697391, lng: 11.989012 }; /*Gothia Towers*/
+    const men = { lat: 57.708870, lng: 11.974560 }; /*Gothenburg*/
+    const vra = { lat: 57.571000, lng: 11.785640 }; /*Vrango*/
+    const lis = { lat: 57.695219, lng: 11.992464 }; /*Liseberg*/
+    const bor = { lat: 57.721000, lng: 12.940250 }; /*Boras*/
+    const slo = { lat: 57.683966, lng: 11.943923 }; /*Slottsskogen*/
+    const uni = { lat: 57.695535, lng: 11.989406 }; /*Universeum*/
+    const gom = { lat: 57.706389, lng: 11.963889 }; /*Goteborg Museum*/
+    const bot = { lat: 57.682853, lng: 11.950377 }; /*Botaniska*/
+    const tra = { lat: 57.707174, lng: 11.975132 }; /*Tradgarden*/
+    const mar = { lat: 57.88845, lng: 11.596745 }; /*Marstrand*/
+    const ofc = { lat: 57.696314, lng: 11.948104 }; /*Oscar Fredrik Church*/
+    const ask = { lat: 57.615844, lng: 11.945608 }; /*Askim*/
+    const del = { lat: 57.684722, lng: 12.045833 }; /*Delsjon*/
+    const vat = { lat: 57.813243, lng: 12.052485 }; /*Vattlestugan*/
+    const goc = { lat: 58.107690, lng: 12.149440 }; /*Gota Canal*/
+    const bro = { lat: 57.705544, lng: 11.963371 }; /*Brogyllen*/
+    const rod = { lat: 57.696264, lng: 11.952316 }; /*Rada Gelato*/
+    const ava = { lat: 57.703977, lng: 11.968236 }; /*Avalon*/
+    const got = { lat: 57.697391, lng: 11.989012 }; /*Gothia Towers*/
 
     /*Select Location*/
     /*Display Map & Marker on map*/
-    if (document.getElementById("location").value == 'men') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    if (document.getElementById("location").value === 'men') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 10,
             center: men
         });
@@ -31,8 +31,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'vra') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'vra') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 13,
             center: vra
         });
@@ -40,9 +40,9 @@ function initMap() {
             position: vra,
             map,
         });
-    } 
-    else if (document.getElementById("location").value == 'lis') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    }
+    else if (document.getElementById("location").value === 'lis') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 13,
             center: lis
         });
@@ -51,8 +51,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'bor') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'bor') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 13,
             center: bor
         });
@@ -61,8 +61,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'slo') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'slo') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 15,
             center: slo
         });
@@ -71,8 +71,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'uni') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'uni') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 17,
             center: uni
         });
@@ -81,8 +81,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'gom') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'gom') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 15,
             center: gom
         });
@@ -91,8 +91,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'bot') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'bot') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 15,
             center: bot
         });
@@ -101,8 +101,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'tra') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'tra') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 15,
             center: tra
         });
@@ -111,8 +111,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'mar') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'mar') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 13,
             center: mar
         });
@@ -121,8 +121,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'ofc') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'ofc') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 13,
             center: ofc
         });
@@ -131,8 +131,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'ask') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'ask') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 13,
             center: ask
         });
@@ -141,8 +141,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'del') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'del') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 13,
             center: del
         });
@@ -151,8 +151,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'vat') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'vat') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 10,
             center: vat
         });
@@ -161,8 +161,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'goc') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'goc') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 10,
             center: goc
         });
@@ -171,8 +171,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'bro') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'bro') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 18,
             center: bro
         });
@@ -181,8 +181,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'rod') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'rod') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 18,
             center: rod
         });
@@ -191,8 +191,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'ava') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'ava') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 18,
             center: ava
         });
@@ -201,8 +201,8 @@ function initMap() {
             map,
         });
     }
-    else if (document.getElementById("location").value == 'got') {
-        var map = new google.maps.Map(document.getElementById('map'), {
+    else if (document.getElementById("location").value === 'got') {
+        const map = new google.maps.Map(document.getElementById('map'), {
             zoom: 15,
             center: got
         });
