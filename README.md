@@ -206,11 +206,11 @@ Validate by direct input
 ### HTML5 validator
 Vaidate by direct input 
     [HTML5 Validator](https://validator.w3.org/#validate_by_input)
-  - Home Page Result : Pass
+  - Home Page Result : Pass 
   - About Gothenburg Page Result : Pass
   - Attraction Page Result : Pass
   - Restaurant Page Result : Pass  
-  - Explore Map Page Result : Pass
+  - Explore Map Page Result : Warning
   - Contact Page Result : Pass
 
 ### JavaScript validator
@@ -353,6 +353,7 @@ There are no identified bugs as at now.
 - Bootstrap library was used to create a responsive design. 
 - Code snippet for back to top button(for about.html & attraction.html) taken from [w3Scools website](https://www.w3schools.com/) 
 - Code snippet for map taken from [google cloud platform](https://cloud.google.com/)
+- Code snippet for lightbox taken from [w3Scools website](https://www.w3schools.com/)
 
 ### Content :
 
@@ -375,7 +376,7 @@ There are no identified bugs as at now.
 
 - I was inspired by the people of surrounding me who are very much enthusiastic and curious travellers.
 - Thanks to my fellow student and tutors on slack channel who helped me in some way.
-- Thanks to my mentor for helping me throughout the project and giving me important suggestions and feedback of my work.
+- Thanks to my mentor Maranatha Ilesalnmi for helping me throughout the project and giving me important suggestions and feedback of my work.
  
 
 
