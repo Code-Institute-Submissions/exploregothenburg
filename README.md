@@ -98,6 +98,7 @@ This site also provide the location and map of different places.
 
 - #### Mockups were created using Adobe Xd.
     -[Desktop Wireframes](https://xd.adobe.com/view/07fb6c5c-9818-4af3-9d27-b273d6bfa607-52a8/)
+    -[Mobile Wireframes](https://xd.adobe.com/view/3446a7e8-99bc-4ac8-b5e1-07ea6a2438f5-6115/)
 - #### Mockup made through original website 
     -[Wireframes](https://techsini.com/multi-mockup/index.php)
     
